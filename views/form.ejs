@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Post</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <div id="newPostBody">
+        <form action="/new" method="post">
+            <label for="postUser" aria-placeholder="ex: @newUser14">Username: </label>
+            <br>
+            <input type="text" name="postUser" id="postUser">
+            <br>
+            <br>
+            <label for="postBody">Content: </label>
+            <br>
+            <textarea name="postBody" id="postBody" cols="30" rows="10"></textarea>
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
